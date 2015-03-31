@@ -1,0 +1,15 @@
+package edu.asu.cse360.team25.protocol.exception;
+
+public class InvalidDataRecordException extends Exception {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1186164040897502587L;
+
+	public InvalidDataRecordException(String arg0) {
+		super(arg0);
+		// TODO Auto-generated constructor stub
+	}
+
+}

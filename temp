@@ -1,0 +1,69 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        jLabel9.setIcon(new javax.swing.ImageIcon("dricon.png")); // NOI18N
+        
+        
+        
+        lableIcon.setIcon(new javax.swing.ImageIcon("picon.png")); // NOI18N
+
+
+
+
+
+
+
+
+        
+        tbCase.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"0", "Hanayo", "Jan. 1, 2015", "Finished"},
+                {"1", "Hanayo", "Jan. 2, 2015", "Finished"},
+                {"2", "Hanayo", "Jan. 3, 2015", "Finished"},
+                {"3", "Maki", "Feb. 1, 2015", "Suspended"}
+            },
+            new String [] {
+                "Case ID", "Doctor", "Date", "State"
+            }
+        ));
+        jScrollPane1.setViewportView(tbCase);
+
+        jLabel8.setText("Doctor list:");
+
+        tbDoctor.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"0", "Maki", "*", "8/10"},
+                {"1", "Honoka", "*", "7/10"},
+                {"2", "Hanayo", "*", "10/10"}
+            },
+            new String [] {
+                "ID", "Name", "expertise", "rate"
+            }
+        ));
+        jScrollPane2.setViewportView(tbDoctor);
+
+        jLabel11.setText("My Lab Measurements:");
+
+        tbLab.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"0", "Blood test", "Jan. 1, 2015", "Kokoa"}
+            },
+            new String [] {
+                "ID", "Title", "Date", "Nurse"
+            }
+        ));
+        jScrollPane5.setViewportView(tbLab);
+        
